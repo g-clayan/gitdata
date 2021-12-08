@@ -1,0 +1,35 @@
+﻿生成启动时间为 2021/11/18 10:21:35。
+     1>项目“d:\Projects\Hello\pje1\pje1\pje1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\pje1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Download\VC++2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt 05opt.c
+         05opt.c
+     1>d:\projects\hello\pje1\pje1\05opt.c(3): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\projects\hello\pje1\pje1\05opt.c(12): warning C4305: “初始化”: 从“double”到“float”截断
+     1>d:\projects\hello\pje1\pje1\05opt.c(8): warning C4716: “main13”: 必须返回一个值
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Download\VC++2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\Projects\hello\pje1\Debug\pje1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\pje1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"d:\Projects\hello\pje1\Debug\pje1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\Projects\hello\pje1\Debug\pje1.lib" /MACHINE:X86 Debug\pje1.exe.embed.manifest.res
+         Debug\02char.obj
+         Debug\03float.obj
+         Debug\04constauto.obj
+         Debug\05opt.obj
+         Debug\hello.obj
+         Debug\test.obj
+         Debug\type.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\pje1.exe.embed.manifest" /manifest Debug\pje1.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         pje1.vcxproj -> d:\Projects\hello\pje1\Debug\pje1.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\pje1.unsuccessfulbuild”。
+         正在对“Debug\pje1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“d:\Projects\Hello\pje1\pje1\pje1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.54
